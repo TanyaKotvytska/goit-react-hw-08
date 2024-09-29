@@ -1,0 +1,16 @@
+.div {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.btn {
+    padding: 4px;
+}
+
+.btn:hover {
+    scale: 1.2;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}

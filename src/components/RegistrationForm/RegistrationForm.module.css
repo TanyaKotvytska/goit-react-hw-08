@@ -1,0 +1,27 @@
+.form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
