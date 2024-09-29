@@ -1,28 +1,42 @@
 .contactBox {
+    width: 300px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border: 2px solid #007bff;
+    margin-bottom: 10px;
+    border-radius: 8px;
     background-color: #ffffff;
-    margin: 10px 0;
-    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
-.nameBox {
-    display: flex;
-    align-items: center;
+.contactBox:hover {
+    transform: scale(1.02);
 }
 
 .btnDelete {
-    padding: 5px 10px;
-    background-color: #e74c3c;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #ff4d4d;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .btnDelete:hover {
-    background-color: #c0392b;
+    background-color: #ff1a1a;
+}
+
+.contactData,
+.nameBox {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    gap: 10px;
 }

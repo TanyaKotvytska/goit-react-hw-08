@@ -16,3 +16,14 @@
 .btn:hover {
     background-color: #c0392b;
 }
+
+.welcomeMessage {
+    font-weight: bold;
+    color: #080e08;
+    margin: 0;
+}
+
+.userName {
+    color: #f0f321;
+    text-decoration: underline;
+}
